@@ -1,0 +1,24 @@
+# Virtual Environment
+venv/
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Application Logs & Temp Files
+*.log
+tmp_in_*
+tmp_out_*
+tmp_ocr_*
+tesseract_installer.exe
+
+# Large AI Models (GitHub has a 100MB limit)
+# The colorization model is ~129MB. Use Git LFS or host elsewhere.
+backend/models/*.caffemodel
+
+# OS files
+.DS_Store
+Thumbs.db
